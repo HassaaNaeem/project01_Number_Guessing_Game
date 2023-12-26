@@ -15,7 +15,7 @@ for (let r = 0; r < runAgain; r++) {
         if (user.GuessingNumber === randomNumber) {
             console.log("You have Guessed the right number");
             console.log(`${randomNumber} was the right number`);
-            // console.log(`You guessed the ${runAgain} number in ${tries} Tries`)
+            console.log(`You guessed the number in ${tries} Tries`);
             break;
         }
         else if (user.GuessingNumber > randomNumber) {
@@ -36,6 +36,7 @@ for (let r = 0; r < runAgain; r++) {
     if (again.runAgain === 'Yes') {
         randomNumber = Math.floor(Math.random() * 100 + 1);
         runAgain += 1;
+        tries = 0;
     }
     else {
         break;
