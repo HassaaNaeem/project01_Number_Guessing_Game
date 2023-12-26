@@ -1,2 +1,2 @@
 # project01_Number_Guessing_Game
-Second project of PIAIC
+Welcome to the TypeScript Number Guessing Game! Using TypeScript and the npm package 'inquirer,' this game challenges you to guess a randomly generated number between 1 and 100. With each guess, the game provides feedback—whether the secret number is greater or smaller—helping you zero in on the correct answer. Keep guessing until you crack the code, and the game will reveal the number of attempts it took. Have fun honing your guessing skills in this interactive and enjoyable challenge!
